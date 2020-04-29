@@ -1,0 +1,161 @@
+﻿.global-setting .control-label {
+     text-align: left !important; 
+}
+.global-setting .success-msg {
+     color: green !important; 
+     padding:0px !important; 
+}
+.global-setting .error-msg {
+     color: red !important; 
+}
+.global-setting .btn-warning, .global-setting .btn-warning:hover, .global-setting .btn-warning:active, .global-setting .btn-warning:focus {
+    background-color: #f34337 !important;
+}
+
+/** Category list as tree view **/
+.category-treeview .tree, .category-treeview .tree ul {
+    margin:0;
+    padding:0;
+    list-style:none
+}
+.category-treeview .tree ul {
+    margin-left:1em;
+    position:relative
+}
+.category-treeview .tree ul ul {
+    margin-left:.5em
+}
+.category-treeview .tree ul:before {
+    content:"";
+    display:block;
+    width:0;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    border-left:1px solid
+}
+.category-treeview .tree li {
+    margin:0;
+    padding:0 1em;
+    line-height:2em;
+    color:#369;
+    font-weight:700;
+    position:relative
+}
+.category-treeview .tree ul li:before {
+    content:"";
+    display:block;
+    width:10px;
+    height:0;
+    border-top:1px solid;
+    margin-top:-1px;
+    position:absolute;
+    top:1em;
+    left:0
+}
+.category-treeview .tree ul li:last-child:before {
+    background:#fff;
+    height:auto;
+    top:1em;
+    bottom:0
+}
+.category-treeview .indicator {
+    margin-right:5px;
+}
+.category-treeview .tree li a {
+    text-decoration: none;
+    color:#369;
+}
+.category-treeview .tree li button, .category-treeview .tree li button:active, .category-treeview .tree li button:focus {
+    text-decoration: none;
+    color:#369;
+    border:none;
+    background:transparent;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    outline: 0;
+}
+
+.add-right-button{
+    position: absolute;
+    top: 20px;
+    right: 15px !important;
+    list-style: none;
+}
+
+.add-left-button{
+    position: absolute;
+    top: 20px;
+    right: 90px !important;
+    list-style: none;
+}
+
+.xls-button{
+    position: absolute;
+    top: 20px;
+    right: 160px !important;
+    list-style: none;
+}
+.supervisor{
+   
+    right: 160px !important;
+   
+}
+
+
+#contentManagement td{
+    word-wrap: break-word;
+    width: 150px;
+}
+
+/*.user-image{
+    width: 8% !important
+}*/
+
+
+.bootstrap-select .dropdown-menu ul.dropdown-menu.inner{max-height: 280px !important;}
+
+.user-profile-view{
+    min-height: 75vh;
+}
+
+.footer-menu-place, .page, .links{
+    display: none;
+}
+#loader {
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   position: fixed;
+   display: block;
+   opacity: 0.7;
+   background-color: #fff;
+   z-index: 99;
+   text-align: center;
+}
+
+#loading-image {
+  position: absolute;
+  top: 100px;
+  left: 240px;
+  z-index: 100;
+}
+
+.red{
+  color:red;
+}
+
+.green{
+  color:green;
+}
+
+
+
+
+
+
+
+
+
